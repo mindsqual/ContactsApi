@@ -1,2 +1,2 @@
 # ContactsApi
-Restful service for contacts information
+Restful service for contact information
