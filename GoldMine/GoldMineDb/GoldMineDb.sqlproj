@@ -134,6 +134,7 @@
     <Folder Include="Security\" />
     <Folder Include="Person\XMLSchemaCollections\" />
     <Folder Include="Scripts" />
+    <Folder Include="Organization" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DatabaseLog.sql" />
@@ -162,18 +163,23 @@
     <Build Include="dbo\User Defined Types\Name.sql" />
     <Build Include="dbo\User Defined Types\OrderNumber.sql" />
     <Build Include="dbo\User Defined Types\Phone.sql" />
-    <Build Include="Security\Employer.sql" />
     <Build Include="Security\Person.sql" />
     <Build Include="Person\XMLSchemaCollections\AdditionalContactInfoSchemaCollection.sql" />
     <Build Include="Person\XMLSchemaCollections\IndividualSurveySchemaCollection.sql" />
     <Build Include="ExtendedProperties.sql" />
-    <Build Include="Security\Recruiter.sql" />
     <Build Include="Person\Tables\PersonType.sql" />
+    <Build Include="Security\Organization.sql" />
+    <Build Include="Organization\Company.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
+    <None Include="Scripts\PeopleTestData.PostDeployment2.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\ReferenceData.sql" />
+    <None Include="GoldMineDb.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="GoldMineDb.refactorlog" />
   </ItemGroup>
 </Project>
