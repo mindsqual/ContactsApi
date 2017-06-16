@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMine.Api.SmokeTest", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Web.Api", "ContactsSrvc.Web.Api\ContactsSrvc.Web.Api.csproj", "{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Data", "ContactsSrvc.Data\ContactsSrvc.Data.csproj", "{DB90D63E-DC09-4B54-94A4-EE094C05372B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB90D63E-DC09-4B54-94A4-EE094C05372B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB90D63E-DC09-4B54-94A4-EE094C05372B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB90D63E-DC09-4B54-94A4-EE094C05372B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB90D63E-DC09-4B54-94A4-EE094C05372B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
