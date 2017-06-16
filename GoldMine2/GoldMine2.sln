@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Common", "ContactsSrvc.Common\ContactsSrvc.Common.csproj", "{1ADA9EAE-89FF-4AF5-B801-D118234347BE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ContactsDb", "GoldMineDb\ContactsDb.sqlproj", "{B332CEE4-21D9-40EA-9891-C7501235171E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0ECBF61E-9897-4B77-AF20-D0BFC26D12BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMine.Api.SmokeTest", "..\..\_ContactService\src\GoldMine.Api.SmokeTest\GoldMine.Api.SmokeTest.csproj", "{BA0ABE58-2C83-4917-8537-66160CA4C7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Web.Api", "ContactsSrvc.Web.Api\ContactsSrvc.Web.Api.csproj", "{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ADA9EAE-89FF-4AF5-B801-D118234347BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADA9EAE-89FF-4AF5-B801-D118234347BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADA9EAE-89FF-4AF5-B801-D118234347BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADA9EAE-89FF-4AF5-B801-D118234347BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B332CEE4-21D9-40EA-9891-C7501235171E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B332CEE4-21D9-40EA-9891-C7501235171E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B332CEE4-21D9-40EA-9891-C7501235171E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B332CEE4-21D9-40EA-9891-C7501235171E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B332CEE4-21D9-40EA-9891-C7501235171E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B332CEE4-21D9-40EA-9891-C7501235171E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BA0ABE58-2C83-4917-8537-66160CA4C7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0ABE58-2C83-4917-8537-66160CA4C7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0ABE58-2C83-4917-8537-66160CA4C7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0ABE58-2C83-4917-8537-66160CA4C7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA0ABE58-2C83-4917-8537-66160CA4C7FB} = {0ECBF61E-9897-4B77-AF20-D0BFC26D12BF}
+	EndGlobalSection
+EndGlobal
