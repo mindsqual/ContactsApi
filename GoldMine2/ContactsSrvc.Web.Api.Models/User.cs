@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ContactSrvc.Web.Api.Models
+namespace ContactsSrvc.Web.Api.Models
 {
     public class User
     {

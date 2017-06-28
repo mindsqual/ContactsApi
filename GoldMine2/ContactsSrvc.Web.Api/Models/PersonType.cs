@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 
 namespace ContactsSrvc.Web.Api.Models
 {
-    /// <summary>
-    /// A web resource type that represents 
-    /// a PersonType (classification of person in the database
-    /// </summary>
     public class PersonType
     {
         public long PersonTypeId { get; set; }

@@ -135,6 +135,7 @@
     <Folder Include="Person\XMLSchemaCollections\" />
     <Folder Include="Scripts" />
     <Folder Include="Organization" />
+    <Folder Include="ContactEvent" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DatabaseLog.sql" />
@@ -170,6 +171,7 @@
     <Build Include="Person\Tables\PersonType.sql" />
     <Build Include="Security\Organization.sql" />
     <Build Include="Organization\Company.sql" />
+    <Build Include="ContactEvent\ContactEvent.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />

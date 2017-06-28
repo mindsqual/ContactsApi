@@ -11,13 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0ECBF61E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMine.Api.SmokeTest", "..\..\_ContactService\src\GoldMine.Api.SmokeTest\GoldMine.Api.SmokeTest.csproj", "{BA0ABE58-2C83-4917-8537-66160CA4C7FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Web.Api", "ContactsSrvc.Web.Api\ContactsSrvc.Web.Api.csproj", "{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Data", "ContactsSrvc.Data\ContactsSrvc.Data.csproj", "{DB90D63E-DC09-4B54-94A4-EE094C05372B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Data.SqlServer", "ContactsSrvc.Data.SqlServer\ContactsSrvc.Data.SqlServer.csproj", "{947C10DD-094D-42CA-AB53-3372F330871C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Web.Api.Models", "ContactsSrvc.Web.Api.Models\ContactsSrvc.Web.Api.Models.csproj", "{FE782E30-D60A-4908-A6F3-CFD4F90BD2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Web.Common", "ContactsSrvc.Web.Common\ContactsSrvc.Web.Common.csproj", "{3B110494-D531-4339-BD0B-029EA8EC3D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsSrvc.Web.Api", "ContactsSrvc.Web.Api\ContactsSrvc.Web.Api.csproj", "{134F3648-AEC9-497D-A916-2FBFAC3C3452}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +41,6 @@ Global
 		{BA0ABE58-2C83-4917-8537-66160CA4C7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0ABE58-2C83-4917-8537-66160CA4C7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0ABE58-2C83-4917-8537-66160CA4C7FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A5E1B6B0-B319-43AF-8969-440C7CD3CC97}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB90D63E-DC09-4B54-94A4-EE094C05372B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB90D63E-DC09-4B54-94A4-EE094C05372B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB90D63E-DC09-4B54-94A4-EE094C05372B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,6 +53,14 @@ Global
 		{FE782E30-D60A-4908-A6F3-CFD4F90BD2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE782E30-D60A-4908-A6F3-CFD4F90BD2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE782E30-D60A-4908-A6F3-CFD4F90BD2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B110494-D531-4339-BD0B-029EA8EC3D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B110494-D531-4339-BD0B-029EA8EC3D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B110494-D531-4339-BD0B-029EA8EC3D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B110494-D531-4339-BD0B-029EA8EC3D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134F3648-AEC9-497D-A916-2FBFAC3C3452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134F3648-AEC9-497D-A916-2FBFAC3C3452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134F3648-AEC9-497D-A916-2FBFAC3C3452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134F3648-AEC9-497D-A916-2FBFAC3C3452}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

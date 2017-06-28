@@ -1,4 +1,4 @@
-﻿namespace ContactSrvc.Web.Api.Models
+﻿namespace ContactsSrvc.Web.Api.Models
 {
     public class Link
     {

@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactEvent.cs" />
+    <Compile Include="ContactPerson.cs" />
     <Compile Include="Link.cs" />
     <Compile Include="PersonType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
