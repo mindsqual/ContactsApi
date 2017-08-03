@@ -182,6 +182,10 @@
     <None Include="Scripts\ReferenceData.sql" />
     <None Include="GoldMineDb.publish.xml" />
     <None Include="ContactsDb.publish.xml" />
+    <None Include="ContactsDb.publish8-3-17.xml" />
+    <None Include="ContactsDb8-3-17.publish.xml" />
+    <None Include="ContactsDb8-3-17_2.publish.xml" />
+    <None Include="ContactsDb8-3-17_3.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="GoldMineDb.refactorlog" />

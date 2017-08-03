@@ -6,4 +6,4 @@
 	[BusinessEntityContactID] INT NOT NULL, --BusinessEntityId for Organization
 	[PersonID]         INT              NOT NULL,
     [ContactTypeID]    INT              NOT NULL,
-    CONSTRAINT [FK_ContactEvent_BusinessEntityContact_BusinessEntityID] FOREIGN KEY ([BusinessEntityContactID], [PersonID], [ContactTypeId]) REFERENCES [Person].[BusinessEntityContact]([BusinessEntityID], [PersonID], [ContactTypeID]))
+    CONSTRAINT [FK_ContactEvent_BusinessEntityContact_BusinessEntityID] FOREIGN KEY ([BusinessEntityContactID], [PersonID], [ContactTypeID]) REFERENCES [Person].[BusinessEntityContact]([BusinessEntityID], [PersonID], [ContactTypeID]))
