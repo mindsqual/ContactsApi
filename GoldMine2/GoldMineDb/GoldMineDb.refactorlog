@@ -7,4 +7,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="BusinessEntityID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="5347b95f-bf8e-4ae8-8659-46a1a13550dc" ChangeDateTime="06/28/2017 21:38:24">
+    <Property Name="ElementName" Value="[dbo].[FK_ContactEvent_BusinessEntityContact]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[ContactEvent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_ContactEvent_BusinessEntityContact_BusinessEntityID]" />
+  </Operation>
 </Operations>

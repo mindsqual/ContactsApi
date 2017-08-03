@@ -1,9 +1,9 @@
-﻿CREATE TABLE [dbo].[ContactEvent]
+﻿CREATE TABLE [JobSearch].[ContactEvent]
 (
-	[Id] INT NOT NULL PRIMARY KEY,
-	[StartTime] DateTime NOT NULL,
-	[EndTime] DateTime NOT NULL,
+	[ContactEventID] INT NOT NULL PRIMARY KEY,
+	[Date] DateTime NOT NULL,
 	[Subject] VARCHAR(100) NULL,
-	[OrganizationId] INT NULL, --BusinessEntityId for Organization
-	[PersonId] INT NOT NULL -- There must be a person associated with a contact event.
-)
+	[BusinessEntityContactID] INT NOT NULL, --BusinessEntityId for Organization
+	[PersonID]         INT              NOT NULL,
+    [ContactTypeID]    INT              NOT NULL,
+    CONSTRAINT [FK_ContactEvent_BusinessEntityContact_BusinessEntityID] FOREIGN KEY ([BusinessEntityContactID], [PersonID], [ContactTypeId]) REFERENCES [Person].[BusinessEntityContact]([BusinessEntityID], [PersonID], [ContactTypeID]))

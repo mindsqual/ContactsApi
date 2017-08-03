@@ -172,6 +172,7 @@
     <Build Include="Security\Organization.sql" />
     <Build Include="Organization\Company.sql" />
     <Build Include="ContactEvent\ContactEvent.sql" />
+    <Build Include="Security\JobSearch.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
@@ -180,6 +181,7 @@
   <ItemGroup>
     <None Include="Scripts\ReferenceData.sql" />
     <None Include="GoldMineDb.publish.xml" />
+    <None Include="ContactsDb.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="GoldMineDb.refactorlog" />
